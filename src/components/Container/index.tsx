@@ -6,8 +6,6 @@ import bg from '../../assets/img/bg.jpg'
 import { BgImage } from '../../App'
 
 const Container = () => {
-  let width = window.screen.width
-  console.log(width)
   return (
     <Box sx={classes.Container}>
       <BgImage src={bg}></BgImage>
