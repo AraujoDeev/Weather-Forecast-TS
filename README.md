@@ -3,7 +3,7 @@
 
 # About the project
 
-https://weather-forecast-nu-dusky.vercel.app/
+[https://weather-forecast-ts.vercel.app/](https://weather-forecast-ts.vercel.app/)
 
 The weather forecast project was already created by me, however, now I'm recreating it using the TypeScript language, I hope you like it!
 
