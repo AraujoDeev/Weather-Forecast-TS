@@ -5,7 +5,7 @@ interface WeatherRequest {
 }
 
 async function getWeather({ location }: WeatherRequest) {
-  const key = process.env.API_KEY
+  const key = process.env.KEY_API
   try {
     const locationApi = await api.get('forecast.json', {
       params: {
