@@ -1,6 +1,6 @@
 export const classes = {
   ContainerFuture: {
-    display: { xs: 'none', lg: 'flex' },
+    display: { xs: 'none', sm: 'flex', md: 'flex', lg: 'flex', xl: 'flex' },
     justifyContent: 'space-around',
     height: '100%',
   },

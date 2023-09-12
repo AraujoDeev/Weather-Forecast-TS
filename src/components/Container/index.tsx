@@ -3,21 +3,14 @@ import Current from '../Weather/Current'
 import CarouselComponent from '../Carousel'
 import { classes } from './style'
 import bg from '../../assets/img/bg.jpg'
+import { BgImage } from '../../App'
 
 const Container = () => {
+  let width = window.screen.width
+  console.log(width)
   return (
     <Box sx={classes.Container}>
-      <img
-        style={{
-          position: 'fixed',
-          left: 0,
-          top: 0,
-          height: '100vh',
-          width: '100%',
-          filter: 'blur(50px)',
-        }}
-        src={bg}
-      />
+      <BgImage src={bg}></BgImage>
       <div></div>
       <CarouselComponent />
       <Current />

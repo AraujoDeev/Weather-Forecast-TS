@@ -2,7 +2,7 @@ export const classes = {
   Container: {
     borderRadius: '6px',
     display: 'flex',
-    width: '100%',
+    width: { sx: '100%' },
     height: '100%',
   },
 }

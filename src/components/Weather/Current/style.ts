@@ -7,8 +7,8 @@ export const classes = {
     color: '#fff',
     zIndex: '999',
     borderRadius: {
-      xs: '6px',
-      sm: '6px',
+      xs: '0',
+      sm: '0',
       md: '0 6px 6px 0',
       lg: '0 6px 6px 0',
       xl: '0 6px 6px 0',
