@@ -66,7 +66,7 @@ export const classes = {
     height: '20%',
   },
   MaxMin: {
-    width: '40%',
+    width: { xs: '60%', sm: '40%' },
     display: 'flex',
     justifyContent: 'space-around',
   },
