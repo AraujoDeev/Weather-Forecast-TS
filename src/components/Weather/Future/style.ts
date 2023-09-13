@@ -17,6 +17,6 @@ export const classes = {
     borderRadius: '4px',
 
     width: '100px',
-    height: '90%',
+    height: '95%',
   },
 }

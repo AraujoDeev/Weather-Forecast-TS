@@ -55,7 +55,7 @@ export const classes = {
     flexDirection: 'column',
     justifyContent: 'space-around',
     alignItems: 'center',
-    height: '50%',
+    height: '45%',
   },
   Bottom: {
     width: '100%',
@@ -72,7 +72,7 @@ export const classes = {
   },
   Future: {
     width: '100%',
-    height: '30%',
+    height: '35%',
   },
   IconSearch: {
     fontSize: '20px',
